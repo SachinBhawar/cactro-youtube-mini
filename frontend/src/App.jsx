@@ -7,7 +7,7 @@ const VideoList = () => {
     useEffect(() => {
         const fetchVideos = async () => {
             try {
-                const response = await fetch(`http://localhost:5000/`);
+                const response = await fetch(`https://cactro-youtube-mini.onrender.com`);
                 const res = await response.json();
                 setVideos(res.data);
             } catch (error) {
