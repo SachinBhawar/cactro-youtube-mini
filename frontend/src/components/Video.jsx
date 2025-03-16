@@ -30,14 +30,6 @@ const Video = ({ video }) => {
                 <p>👍 {video.Likes} Likes</p>
                 <p>💬 {comments.length} Comments</p>
             </div>
-            <a
-                href={`https://www.youtube.com/watch?v=${video.videoId}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block mt-3 text-blue-500 font-semibold hover:underline"
-            >
-                Watch Video →
-            </a>
 
             <div className="mt-4">
                 <input
