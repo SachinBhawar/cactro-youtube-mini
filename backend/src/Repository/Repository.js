@@ -7,8 +7,8 @@ configDotenv({ path: "../../../.env" });
 
 configDotenv();
 
-const apiKey = process.env.API_KEY || "AIzaSyD0teUnA25M4g1WQdesMtyZOoXf13HxT8o";
-const channelId = process.env.CHANNEL_ID || "UCRXNQR_HbTYjiDSWJMlqGTw";
+const apiKey = process.env.API_KEY;
+const channelId = process.env.CHANNEL_ID;
 
 export const getAllVideoDetailsRepo = async () => {
     try {
