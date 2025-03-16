@@ -1,14 +1,18 @@
 import { configDotenv } from "dotenv";
 import axios from "axios";
-import { google } from "googleapis";
-import path from "path";
+
 
 configDotenv({ path: "../../../.env" });
 
 configDotenv();
 
+<<<<<<< HEAD
 const apiKey = process.env.API_KEY;
 const channelId = process.env.CHANNEL_ID;
+=======
+const apiKey = process.env.API_KEY ;
+const channelId = process.env.CHANNEL_ID ;
+>>>>>>> 11d25563ee1e9742bcfffbd2430c54cba0e7eb9c
 
 export const getAllVideoDetailsRepo = async () => {
     try {
