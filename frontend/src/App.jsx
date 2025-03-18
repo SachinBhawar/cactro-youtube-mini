@@ -8,6 +8,7 @@ const VideoList = () => {
         const fetchVideos = async () => {
             try {
                 const response = await fetch(`https://cactro-youtube-mini.onrender.com`);
+                // const response = await fetch(`http://localhost:5000/`);
                 const res = await response.json();
                 setVideos(res.data);
             } catch (error) {

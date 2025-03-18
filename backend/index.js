@@ -24,13 +24,7 @@ app.use(
 );
 
 app.get("/", getAllVideoDetails);
-// app.get("/:vidId", getRepoDetailsController);
-// app.post("/:vidId", createIssueController);
-
-// app.use(errorHandlerMiddleware);
-
-// Swagger documentation
-// app.use("/api-docs", swagger.serve, swagger.setup(apiDocs));
+// app.put()
 
 app.all("*", (req, res) => {
     res.status(404).send({

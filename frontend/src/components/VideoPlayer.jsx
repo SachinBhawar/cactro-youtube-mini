@@ -11,7 +11,7 @@ const VideoPlayer = ({ videoUrl }) => {
         <div className="video-container">
             <iframe
                 width="100%"
-                height="400px"
+                height="250px"
                 src={embedUrl}
                 title="YouTube Video"
                 frameBorder="0"
